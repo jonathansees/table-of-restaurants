@@ -8,11 +8,12 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5px 10px;
+  padding: 0 10px;
   justify-content: ${({ center }) => (center ? 'center' : 'space-between')}
 `;
 
 export const Summary = styled.div`
+  margin-right: 10px;
 `;
 
 export const ControlGroup = styled.div`

@@ -11,6 +11,7 @@ const StyledTable = styled.table`
   border-spacing: 0;
   text-align: left;
   border: 2px solid ${primaryColor};
+  margin: 10px 0;
 `;
 
 export const StyledHeader = styled.th`

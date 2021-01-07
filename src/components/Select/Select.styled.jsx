@@ -30,14 +30,13 @@ export const StyledSelectWrapper = styled.div`
   --right-side-padding: ${rightSidePadding};
   --min-height: ${minHeight};
 
-  display: flex;
+  display: table-cell;
   position: relative;
   cursor: pointer;
   background-color: var(--background-color);
   border: var(--border-size) solid var(--border-color);
   border-radius: 4px;
   box-sizing: border-box;
-  width: 100%;
 
   &:hover {
     border: var(--border-size) solid var(--focus-border-color);

@@ -1,8 +1,18 @@
-import RestarauntsTable from './components/RestarauntsTable';
+import RestarauntsTable from './components/index';
+import styled from 'styled-components';
+
+const PageWrapper = styled.div`
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 function App() {
   return (
-    <RestarauntsTable />
+    <PageWrapper>
+      <RestarauntsTable />
+    </PageWrapper>
   );
 }
 

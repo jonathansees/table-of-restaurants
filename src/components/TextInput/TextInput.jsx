@@ -33,9 +33,8 @@ const TextInput = (props) => {
         invert={invert}
         size={theme.size}
         disabled={disabled}
-        {...restProps}
       >
-        <StyledTextInput placeholder={placeholder} type="text" disabled={disabled} size={theme.size} variant={theme.variant} />
+        <StyledTextInput placeholder={placeholder} type="text" disabled={disabled} size={theme.size} variant={theme.variant} {...restProps} />
       </StyledWrapper>
     </ThemeProvider>
   );

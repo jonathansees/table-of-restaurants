@@ -41,6 +41,7 @@ const StyledButton = styled.button`
   border-radius: 4px;
   /* Gets rid of the blue highlight on mobile android */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-left: 5px;
 
   font-size: var(--font-size);
   font-height: var(--font-height);

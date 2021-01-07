@@ -60,6 +60,9 @@ export const StyledWrapper = styled.div`
     cursor: not-allowed;
     pointer-events: none;
   `}
+
+  min-height: ${minHeight};
+  min-width: ${minWidth};
 `;
 
 const StyledTextInput = styled.input`
