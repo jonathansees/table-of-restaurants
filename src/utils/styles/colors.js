@@ -1,4 +1,3 @@
-// exported from Zeplin: https://zpl.io/VkE3qGg
 export const colors = {
   Blue01: '#055393',
   Blue02: '#0077c5',
